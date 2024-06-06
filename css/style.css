@@ -1,6 +1,7 @@
 :root {
   --color1: #05b1b1;
   --color2: #52339a;
+  --color3: #ffffff;
 }
 header,
 footer,
@@ -19,4 +20,44 @@ footer {
       var(--color2) 100%,
       var(--color2) 100%
     );
+  background-size: contain;
+}
+
+.itd_play {
+  background-color: var(--color1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px auto;
+  transition: all 0.2s ease; /* transition: all 0.2s ease - плавная анимация при наведении */
+}
+
+.itd_play:hover {
+  background-color: var(--color2);
+}
+
+.itd_triangle {
+  margin-right: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px; /* Верхний, правый, нижний, левый */
+  border-color: transparent transparent transparent #fff; /* Цвет задается через border-color */
+}
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--color3);
+  background-color: var(--color2);
+  transition: all 0.2s ease;
+}
+.btn-itd:hover {
+  color: var(--color3);
+  background-color: var(--color1);
 }
