@@ -1,0 +1,22 @@
+:root {
+  --color1: #05b1b1;
+  --color2: #52339a;
+}
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+header {
+  padding: 200px 0;
+}
+header,
+footer {
+  background: url(/img/pattern.png),
+    linear-gradient(
+      to right,
+      var(--color1) 0%,
+      var(--color2) 100%,
+      var(--color2) 100%
+    );
+}
