@@ -77,3 +77,54 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+/* О курсе */
+
+.about {
+  background-color: #eee;
+}
+
+.about i {
+  font-size: 25px;
+  color: var(--color2);
+}
+
+.itd_circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 15px auto 10px;
+}
+
+/* Заманивающий текст */
+
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid var(--color1);
+}
+
+/* Цвет */
+
+.color1 {
+  color: var(--color1);
+}
+.color2 {
+  color: var(--color2);
+}
+.bg1 {
+  background-color: var(--color1);
+}
+.bg2 {
+  background-color: var(--color2);
+}
