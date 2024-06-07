@@ -17,7 +17,11 @@
             <h1 class="text-center text-white">
               Видео курс по верстке для начинающих
             </h1>
-            <div class="itd_play">
+            <div
+              class="itd_play"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               <div class="itd_triangle"></div>
             </div>
             <a href="#footer" class="btn btn-itd btn-lg text-uppercase"
@@ -29,6 +33,39 @@
     </header>
 
     <footer if="footer"></footer>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Изучаем CSS быстро и качественно
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-container">
+              <iframe
+                src="https://www.youtube.com/embed/hft4XYApT44?si=kX1x-jRCQ8ukbHmx"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
