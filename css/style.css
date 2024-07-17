@@ -4,7 +4,6 @@
   --color3: #ffffff;
 }
 header,
-footer,
 section {
   padding: 100px 0;
 }
@@ -176,4 +175,10 @@ footer {
 .line {
   background-color: var(--color2);
   margin-top: 50px;
+}
+
+/* footer */
+
+footer {
+  padding: 30px 0;
 }
